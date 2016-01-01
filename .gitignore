@@ -1,0 +1,20 @@
+#generated driver
+fpga.ko
+fpga.mod.c
+#compile intermediate
+*.o
+*.so
+#Eclipse files
+.cproject
+.project
+#general editor backups
+*~
+#intermediate files
+*.o.cmd
+*.ko.cmd
+#module stuff
+Module.symvers
+modules.order
+.tmp_versions
+etc.modules.bak
+application/bin
